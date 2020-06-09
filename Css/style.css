@@ -13,6 +13,11 @@
     text-align: center;
     background: #cfd0d1;
     color: #f0f4fa;
+    border-bottom: #f0f4fa, 2px, solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 0.5rem;
 }
 
 #navbar {
@@ -31,6 +36,7 @@
     padding-bottom: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    border-radius: 15px;
 }
 
 #navbar a li {
@@ -39,12 +45,14 @@
 
 #home-content {
     display: flex;
+    background: black;
     width: 100%;
+    justify-content: space-between;
 }
 
 #video-content {
     background: black;
-    width: 75%;
+    align-self: center;
 }
 
 #side-content {
@@ -56,3 +64,5 @@
 #status {
     margin: 1rem;
 }
+
+/* Footer */
