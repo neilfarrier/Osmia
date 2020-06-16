@@ -4,9 +4,18 @@
 }
 
 #main-nav {
-    display: grid;
+    display: flex;
     justify-content: center;
+    align-items: center;
     background: #cfd0d1;
+    margin: 0;
+    border-bottom: darkorange 10px solid;
+}
+
+#main-nav img {
+    padding: 0;
+    margin-right: 0;
+    height: 200px;
 }
 
 #search-bar {
@@ -18,6 +27,7 @@
     border-left: none;
     border-right: none;
     padding-top: 0.5rem;
+    width: 100%;
 }
 
 #navbar {
@@ -50,9 +60,17 @@
     justify-content: space-between;
 }
 
+#home-content h1 {
+    color: darkorange;
+}
+
 #video-content {
     background: black;
     align-self: center;
+}
+
+#video-content iframe {
+    padding-left: 1rem;
 }
 
 #side-content {
@@ -66,3 +84,9 @@
 }
 
 /* Footer */
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #cfd0d1;
+}
