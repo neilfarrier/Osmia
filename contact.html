@@ -4,11 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5a7f8d07c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/style.css">
     <title>Contact</title>
 </head>
 
 <body>
-
+    <div id="main-nav">
+        <img src="/Images/OMSIA_logo.png" width="150px" alt="">
+        <div id="nav-container">
+            <textarea name="search" id="search-bar" cols="30" rows="2" placeholder="Search">Search...</textarea>
+            <ul id="navbar">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="gallery.html">
+                    <li>Gallery</li>
+                </a>
+                <a href="contact.html" class="current">
+                    <li>Contact</li>
+                </a>
+                <a href="games.html">
+                    <li>Games</li>
+                </a>
+                <a href="careers.html">
+                    <li>Careers</li>
+                </a>
+                <a href="publishing.html">
+                    <li>Publishing</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <section id="contact-form">
+        <div id="form-container">
+            <h2>A penny for your thoughts!!!</h2>
+            <p>Please fill out the form below to get in contact with us.</p>
+            <form action="">
+                <div id="form-inputs">
+                    <label for="name-input">Your Name</label>
+                    <input type="text" class="text-input name-input" name="name-input" placeholder="Name" />
+                    <label for="email-input">Your Email Address</label>
+                    <input type="email" class="text-input email-input" name="email-input" placeholder="Email Address" />
+                    <label for="subject-input">Your Subject Heading</label>
+                    <input type="text" class="text-input subject-input" name="subject-input" placeholder="Subject" />
+                    <div id="bottom-line"></div>
+                    <label for="message-input">Your Message</label>
+                    <textarea class="text-input message-input" name="message-input"
+                        placeholder="Enter Message"></textarea>
+                </div>
+                <button type="submit" id="button-main">SUBMIT</button>
+            </form>
+        </div>
+    </section>
 </body>
+
+<footer>
+    <div class="footer-content">
+        <p>Copyright &copy; 2020. All Rights Reserved</p>
+        <div class="social">
+            <a href="" target="blank"><i class="fab fa-facebook"></i></a>
+            <a href="" target="blank"><i class="fab fa-twitter"></i></a>
+            <a href="" target="blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
 
 </html>

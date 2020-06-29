@@ -83,6 +83,11 @@
     margin: 1rem;
 }
 
+/* Contact Page */
+#form-inputs {
+    display: grid;
+}
+
 /* Footer */
 .footer-content {
     display: flex;
